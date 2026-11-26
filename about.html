@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | SpendWise</title>
+  <meta name="description" content="How SpendWise works and how this project is deployed with GitHub and Netlify.">
+  <meta name="theme-color" content="#10292E">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="34" height="34">SpendWise</a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Dashboard</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="about.html" aria-current="page">About</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="prose">
+    <h1>About SpendWise</h1>
+    <p class="lead">SpendWise is a small expense tracker built with plain HTML, CSS and JavaScript.</p>
+    <h2>How it works</h2>
+    <ol>
+      <li>Add income or an expense on the Dashboard.</li>
+      <li>See your balance and monthly spending by category.</li>
+      <li>Search, filter, export or delete entries on the Transactions page.</li>
+    </ol>
+    <h2>Your data</h2>
+    <p>Transactions are saved in your browser's local storage. Nothing is sent to a server, so clearing your browser data or switching devices removes or hides your records. Use Export CSV to keep a copy.</p>
+    <h2>How it is published</h2>
+    <p>The source lives in a public GitHub repository. Netlify rebuilds and publishes the site automatically each time a change is pushed to the main branch.</p>
+  </main>
+  <footer class="site-footer">SpendWise v1.0 · Your data stays in this browser · <a href="about.html">About</a></footer>
+</body></html>
